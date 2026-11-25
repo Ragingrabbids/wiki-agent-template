@@ -20,9 +20,9 @@ from pathlib import Path
 
 FELDER = [
     "id", "pfad", "dateiname", "endung", "groesse_bytes", "geaendert_am", "sha256",
-    "dublette_von", "status", "abteilung", "themenbereich", "dokumenttyp",
-    "maschine_linie", "aktualitaet", "aktualitaet_begruendung", "personenbezug",
-    "vertraulichkeit", "konfidenz", "wiki_seite", "bemerkung",
+    "dublette_von", "status", "klassifizierung", "lenkungsstatus", "abteilung",
+    "themenbereich", "dokumenttyp", "maschine_werkzeug", "kunde", "aktualitaet",
+    "aktualitaet_begruendung", "personenbezug", "konfidenz", "wiki_seite", "bemerkung",
 ]
 
 STANDARD_ENDUNGEN = {

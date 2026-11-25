@@ -1,8 +1,14 @@
 # Projektkontext: wiki-agent-template
 
 Dieses Repo dient der **Recherche, Planung und Anleitung** für den KI-gestützten Aufbau eines Firmenwikis
-(Firma mit ca. 100 Mitarbeitern, Pilotbereich voraussichtlich Produktion). Lukas arbeitet hier mit Claude
-am Konzept, an Vorlagen und an Skripten.
+bei **Kienbacher** (Oswald Kienbacher GmbH, Pfarrkirchen bei Bad Hall, OÖ; Spritzgussteile aus technischen
+Kunststoffen für die Automobilindustrie; ca. 100 Mitarbeiter). Lukas hat die Stelle für dieses Projekt.
+Er arbeitet hier mit Claude am Konzept, an Vorlagen und an Skripten.
+
+**Umfang:** Wiki/Wissensmanagement **und** Unterstützung der Compliance mit ISO 9001 (Revision 2026),
+IATF 16949 und TISAX. Die Firma nutzt Microsoft 365 und Teams und hat ein QM-System (Software noch unbekannt).
+Grundsatz: gelenkte Dokumente bleiben im QM-System und werden im Wiki nur verlinkt
+(siehe `docs/recherche/2026-11_automotive-compliance.md`).
 
 ## Wichtig
 
@@ -22,6 +28,6 @@ am Konzept, an Vorlagen und an Skripten.
 
 ## Offene Punkte (Stand 2026-11-25)
 
-Plattform (IT-Entscheidung), KI-Anbieter/Endpunkt (EU-Residenz/ZDR), Pilotbereich, Extraktionswerkzeug,
-Betriebsvereinbarung – siehe `docs/entscheidungen.md`. Nächster Schritt: `docs/gf-gespraech.md` für das
-Sondierungsgespräch mit der Geschäftsführung schärfen.
+Erstgespräch mit der GF hat stattgefunden. Offen: Verhältnis Wiki ↔ QM-System, Plattform, KI-Anbieter im
+Rahmen von ISMS/TISAX, Klassifizierung, QM-Software, Pilotbereich – siehe `docs/entscheidungen.md`.
+Nächster Schritt: Gespräche mit IT, QMB und ISB vorbereiten (`docs/naechste-gespraeche.md`).

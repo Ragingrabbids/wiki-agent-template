@@ -1,5 +1,9 @@
 # Gesprächsleitfaden: Sondierungsgespräch mit der Geschäftsführung
 
+> **Status: Erstgespräch hat stattgefunden (Stelle zugesagt).** Ergebnis: Umfang umfasst auch Compliance
+> (ISO 9001, IATF 16949, TISAX). Der Leitfaden bleibt als Vorlage für Folgegespräche mit der GF;
+> nächste Gespräche siehe `naechste-gespraeche.md`.
+
 **Format:** Telefonat · **Dauer:** ca. 30–45 min · **Danach:** IT-Planungsrunde
 
 **Ziel des Gesprächs:** Am Ende sind fünf Dinge klar (siehe „Ergebnis-Check“ unten): das Ziel des Wikis,

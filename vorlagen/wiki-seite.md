@@ -3,12 +3,16 @@ titel:
 abteilung:
 themenbereich:
 dokumenttyp:
-maschine_linie:
+maschine_werkzeug:
+kunde:
 verantwortlich:
 gueltig_ab:
 review_bis:
 status: entwurf
-vertraulichkeit: intern
+klassifizierung: intern
+lenkung_verweise:        # Links auf gelenkte Dokumente im QM-System – maßgeblich ist immer deren gültige Version
+  -
+normbezug:               # optional, z. B. IATF 16949 7.1.6
 erstellt_von: KI-Entwurf
 pruefung: offen          # offen | bestanden | nachbesserung
 freigegeben_von:

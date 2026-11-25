@@ -2,7 +2,9 @@
 
 ## Phase 0 – Weichen stellen (2–4 Wochen)
 
-- [ ] Gespräch mit der GF: Ziel, Erwartungen, Pilotbereich (→ `gf-gespraech.md`)
+- [x] Erstgespräch mit der GF (Stelle zugesagt, Umfang inkl. Compliance)
+- [ ] Gespräche mit QMB und ISB (→ `naechste-gespraeche.md`): QM-System, gelenkte Dokumente, TISAX-Label, Klassifizierung, KI-Richtlinie
+- [ ] **Entscheidung Wiki ↔ QM-System** (Modell A/B/C, siehe Recherche automotive-compliance)
 - [ ] IT-Runde: M365/SharePoint ja/nein · erlaubte KI-Endpunkte (EU-Residenz? ZDR?) · Self-Hosting möglich?
 - [ ] Betriebsrat und Datenschutz einbinden, KI-Betriebsvereinbarung anstoßen
 - [ ] KI-Richtlinie + Kurzschulung dokumentieren (Art. 4 AI Act)

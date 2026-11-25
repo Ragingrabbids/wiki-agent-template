@@ -16,7 +16,8 @@ Recherche, Vorgehen und Agenten-Anweisungen für den KI-gestützten Aufbau eines
 | `docs/recherche/` | Rechercheergebnisse (Stand der Technik, Werkzeuge, Recht) |
 | `docs/konzept.md` | Architektur und Pipeline |
 | `docs/stufenplan.md` | Phasen von der Vorbereitung bis zum Betrieb |
-| `docs/gf-gespraech.md` | Vorbereitung für das Sondierungsgespräch mit der Geschäftsführung |
+| `docs/gf-gespraech.md` | Leitfaden Gespräch mit der Geschäftsführung (Erstgespräch erledigt) |
+| `docs/naechste-gespraeche.md` | Fragen und Ergebnis-Checks für QMB, ISB (TISAX) und IT |
 | `docs/entscheidungen.md` | Offene und getroffene Entscheidungen |
 | `vorlagen/` | Vorlagen für Taxonomie, Inventar, Wiki-Seite, Fortschritt, Prüf-Checkliste |
 | `scripts/` | Hilfsskripte (Arbeitsordner anlegen, Inventur mit Dublettenerkennung) |

@@ -24,6 +24,9 @@ Du arbeitest in einem lokalen Arbeitsordner. Diese Regeln sind verbindlich.
 - Endgültig entscheiden, ob ein Dokument gültig oder veraltet ist (nur Vorschlag mit Begründung)
 - Kategorien verwenden, die nicht in `TAXONOMIE.md` stehen (stattdessen Vorschlag in `review/taxonomie-vorschlaege.md`)
 - Dokumente mit Personenbezug (Personal, Bewerbungen, Gesundheit, Bewertungen) weiterverarbeiten – nur im Inventar als `personenbezug=ja` markieren und überspringen
+- **Inhalte gelenkter Dokumente** (Lenkungsstatus `gelenkt`, z. B. Arbeitsanweisungen, Prüfpläne, Produktionslenkungspläne, FMEA aus dem QM-System) ins Wiki kopieren oder umformulieren – nur verlinken und erklären, worauf es ankommt
+- Dokumente der Klassifizierung `streng_vertraulich` (OEM-Zeichnungen, CAD, Lastenhefte, Prototypdaten, NDA-Inhalte) inhaltlich lesen oder zusammenfassen – nur Metadaten aus Dateiname/Pfad erfassen, außer `TAXONOMIE.md` erlaubt es ausdrücklich
+- Klassifizierung herabstufen. Im Zweifel die höhere Stufe wählen und `klaerung` setzen
 
 ## 3. Pipeline-Status in `inventar.csv`
 
@@ -32,9 +35,12 @@ Sonderstatus: `uebersprungen` (mit Grund), `dublette` (mit Verweis auf Hauptdoku
 
 ## 4. Klassifikation
 
-Für jedes Dokument ausfüllen: Abteilung, Themenbereich, Dokumenttyp, Maschine/Linie (falls zutreffend),
-Aktualität (`aktuell` / `vermutlich_veraltet` / `unklar` + Begründung), Personenbezug, Vertraulichkeit,
-Konfidenz (0–1). **Konfidenz < 0,7 → Status `klaerung`.**
+**Reihenfolge:** zuerst Klassifizierung und Lenkungsstatus (aus Pfad, Dateiname, Kopf-/Fußzeile), erst danach
+Inhaltsverarbeitung – und nur, wenn die Klassifizierung sie erlaubt.
+
+Für jedes Dokument ausfüllen: Klassifizierung, Lenkungsstatus, Abteilung, Themenbereich, Dokumenttyp,
+Maschine/Werkzeug, Kunde (falls zutreffend), Aktualität (`aktuell` / `vermutlich_veraltet` / `unklar` + Begründung),
+Personenbezug, Konfidenz (0–1). **Konfidenz < 0,7 → Status `klaerung`.**
 
 ## 5. Wiki-Seiten schreiben
 
@@ -46,6 +52,10 @@ Konfidenz (0–1). **Konfidenz < 0,7 → Status `klaerung`.**
 - Widersprüche zwischen Quellen **nicht auflösen** – im Abschnitt „Offene Fragen“ aufführen und in `review/` melden.
 - Keine Inhalte erfinden, um Lücken zu füllen. Fehlendes als offene Frage markieren.
 - Im Seitenkopf `erstellt_von: KI-Entwurf` setzen.
+- Gibt es zum Thema ein gelenktes Dokument, steht der Link darauf in `lenkung_verweise` und im Text der Hinweis
+  „Maßgeblich ist die gültige Version im QM-System“. Abweichungen zwischen Altbestand und gelenktem Dokument
+  sind immer eine offene Frage an den QMB.
+- Die Seite erhält die höchste Klassifizierung ihrer Quellen.
 
 ## 6. Prüfung (getrennter Durchlauf)
 

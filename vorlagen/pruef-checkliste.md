@@ -17,6 +17,12 @@ Getrennter Durchlauf: so prüfen, als stamme die Seite von jemand anderem.
 - [ ] Keine Widersprüche zu bestehenden Seiten in `wiki/` – sonst unter „Offene Fragen“ + `review/`.
 - [ ] Widersprüche zwischen Quellen sichtbar gemacht, nicht stillschweigend aufgelöst.
 
+## Lenkung & Klassifizierung
+- [ ] Keine Inhalte aus gelenkten Dokumenten kopiert; stattdessen Link in `lenkung_verweise`.
+- [ ] Kein Widerspruch zu einem gelenkten Dokument (sonst offene Frage an QMB).
+- [ ] Klassifizierung der Seite = höchste Klassifizierung ihrer Quellen.
+- [ ] Keine Inhalte aus streng vertraulichen Kundenunterlagen.
+
 ## Datenschutz
 - [ ] Keine personenbezogenen Daten über das Nötige hinaus (Rollen statt Namen, außer „verantwortlich“).
 
