@@ -1,0 +1,23 @@
+# Keine Firmendaten in dieses Repo
+raw/
+extrakt/
+wiki/
+review/
+arbeitsbereich/
+inventar*.csv
+!vorlagen/inventar.csv
+*.docx
+*.xlsx
+*.xlsm
+*.pdf
+*.pptx
+*.msg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
