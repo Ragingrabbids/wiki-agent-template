@@ -11,8 +11,8 @@ Recherche, Vorgehen und Agenten-Anweisungen für den KI-gestützten Aufbau eines
 
 | Pfad | Zweck |
 |---|---|
-| `AGENTS.md` | Verbindliche Arbeitsregeln für den KI-Agenten (Claude, Codex o. ä.) |
-| `CLAUDE.md` | Verweis auf `AGENTS.md` (damit Claude die Regeln automatisch lädt) |
+| `AGENTS.md` | Vorlage der verbindlichen Arbeitsregeln für den KI-Agenten im Arbeitsordner (Claude, Codex o. ä.) |
+| `CLAUDE.md` | Projektkontext für die Arbeit mit Claude **in diesem Repo** |
 | `docs/recherche/` | Rechercheergebnisse (Stand der Technik, Werkzeuge, Recht) |
 | `docs/konzept.md` | Architektur und Pipeline |
 | `docs/stufenplan.md` | Phasen von der Vorbereitung bis zum Betrieb |

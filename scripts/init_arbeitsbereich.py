@@ -19,7 +19,6 @@ REPO = Path(__file__).resolve().parent.parent
 ORDNER = ["raw", "extrakt", "wiki", "review"]
 KOPIEN = {
     REPO / "AGENTS.md": "AGENTS.md",
-    REPO / "CLAUDE.md": "CLAUDE.md",
     REPO / "vorlagen" / "TAXONOMIE.md": "TAXONOMIE.md",
     REPO / "vorlagen" / "inventar.csv": "inventar.csv",
     REPO / "vorlagen" / "progress.md": "progress.md",
@@ -46,6 +45,12 @@ def main() -> int:
         dst.parent.mkdir(parents=True, exist_ok=True)
         if not dst.exists():
             shutil.copy2(quelle, dst)
+    claude_md = ziel / "CLAUDE.md"
+    if not claude_md.exists():
+        claude_md.write_text(
+            "Lies und befolge @AGENTS.md. Diese Datei enthält die verbindlichen Arbeitsregeln.\n",
+            encoding="utf-8",
+        )
     log = ziel / "log.md"
     if not log.exists():
         log.write_text(f"# Entscheidungslog\n\n- {date.today()}: Arbeitsbereich angelegt.\n", encoding="utf-8")
