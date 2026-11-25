@@ -51,7 +51,7 @@ Ergebnis-Check:
 - [ ] TISAX-Label + Termin
 - [ ] Klassifizierungsstufen übernommen in `vorlagen/TAXONOMIE.md`
 - [ ] Freigegebene KI-Dienste je Stufe
-- [ ] Regeln für den lokalen Arbeitsordner
+- [ ] Regeln für den lokalen Arbeitsbereich
 
 ---
 

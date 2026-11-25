@@ -48,7 +48,7 @@ Fünf Botschaften, je ein, zwei Sätze:
    Entwürfe mit Quellenangabe. Fachleute geben jede Seite frei. Nichts geht ungeprüft online.
 4. **Altbestand läuft geordnet aus:** Anfangs parallel; was ins Wiki übernommen ist, wird in der alten Ablage
    als „abgelöst“ markiert. Was niemand braucht, bleibt archiviert statt aufwendig migriert.
-5. **Nachhaltig:** Jede Seite hat eine verantwortliche Person und ein Prüfdatum. Erst zentral aufgebaut,
+5. **Nachhaltig:** Jede Seite hat eine verantwortliche Person und ein Review-Datum. Erst zentral aufgebaut,
    dann Schritt für Schritt an die Abteilungen übergeben.
 
 Grober Zeitrahmen (nur als Orientierung, nicht zusagen):
@@ -91,8 +91,8 @@ Vorbereitung 2–4 Wochen → Pilot 8–12 Wochen → Ausweitung je Abteilung �
 | „Warum nicht gleich alle Abteilungen?“ | Im Pilot lernen wir, wie viel Aufwand pro Seite wirklich anfällt und was die Leute brauchen. Danach geht die Ausweitung deutlich schneller. |
 | „Was kostet das?“ | Hängt von der Plattformentscheidung der IT ab. Bestehende Office-Umgebung nutzen ist am günstigsten. Konkrete Zahlen nach der IT-Runde. |
 | „Ist das datenschutzrechtlich ok?“ | Ja, wenn es sauber aufgesetzt ist: Personaldaten bleiben außen vor, Betriebsrat und Datenschutz werden vorher eingebunden, und die KI läuft über einen Anbieter bzw. eine Lösung, die die IT freigibt. |
-| „Wer pflegt das, wenn es fertig ist?“ | Die Abteilungen – jede Seite hat einen Verantwortlichen und ein Prüfdatum. Ein wöchentlicher automatischer Check meldet veraltete Seiten. |
-| „Wir hatten schon mal ein Wiki, das ist eingeschlafen.“ | Genau deshalb: feste Verantwortliche, Prüfdaten, Einbindung in die tägliche Arbeit (z. B. Einarbeitung, Störungsbehebung) und Altablage geordnet ablösen. |
+| „Wer pflegt das, wenn es fertig ist?“ | Die Abteilungen – jede Seite hat einen Verantwortlichen und ein Review-Datum. Ein wöchentlicher automatischer Check meldet veraltete Seiten. |
+| „Wir hatten schon mal ein Wiki, das ist eingeschlafen.“ | Genau deshalb: feste Verantwortliche, Review-Daten, Einbindung in die tägliche Arbeit (z. B. Einarbeitung, Störungsbehebung) und Altablage geordnet ablösen. |
 
 ## Nicht tun
 

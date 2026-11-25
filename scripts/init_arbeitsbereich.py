@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Legt einen lokalen Arbeitsordner für den Wiki-Agenten an.
+"""Legt einen lokalen Arbeitsbereich für den Wiki-Agenten an.
 
 Kopiert AGENTS.md, CLAUDE.md und die Vorlagen hinein, legt die Ordnerstruktur an
 und initialisiert optional ein lokales Git-Repo (ohne Remote).
@@ -23,7 +23,7 @@ KOPIEN = {
     REPO / "vorlagen" / "inventar.csv": "inventar.csv",
     REPO / "vorlagen" / "progress.md": "progress.md",
     REPO / "vorlagen" / "wiki-seite.md": "vorlagen/wiki-seite.md",
-    REPO / "vorlagen" / "pruef-checkliste.md": "vorlagen/pruef-checkliste.md",
+    REPO / "vorlagen" / "gegenpruef-checkliste.md": "vorlagen/gegenpruef-checkliste.md",
 }
 
 
@@ -35,7 +35,7 @@ def main() -> int:
 
     ziel = args.ziel.resolve()
     if REPO == ziel or REPO in ziel.parents:
-        print("Der Arbeitsordner darf nicht im Repo liegen (Firmendaten!).", file=sys.stderr)
+        print("Der Arbeitsbereich darf nicht im Repo liegen (Firmendaten!).", file=sys.stderr)
         return 1
 
     for o in ORDNER:

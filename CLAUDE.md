@@ -13,14 +13,14 @@ Grundsatz: gelenkte Dokumente bleiben im QM-System und werden im Wiki nur verlin
 ## Wichtig
 
 - **Keine Firmendaten in dieses Repo.** Quelldokumente, Inventare und Wiki-Entwürfe liegen nur lokal
-  im Arbeitsordner (siehe README). Keine Beispiele mit echten Firmeninhalten committen.
-- `AGENTS.md` im Repo-Stamm ist die **Vorlage der Agentenregeln** für den lokalen Arbeitsordner.
+  im Arbeitsbereich (siehe README). Keine Beispiele mit echten Firmeninhalten committen.
+- `AGENTS.md` im Repo-Stamm ist die **Vorlage der Agentenregeln** für den lokalen Arbeitsbereich.
   Ihre Sitzungsabläufe (progress.md lesen usw.) gelten **nicht** für die Arbeit in diesem Repo.
   Änderungen an den Regeln werden hier gepflegt und per `scripts/init_arbeitsbereich.py` verteilt.
 
 ## Arbeitsweise im Repo
 
-- Sprache: Deutsch.
+- Sprache: Deutsch. Begriffe nach `GLOSSARY.md` verwenden; neue Projektbegriffe sofort dort eintragen.
 - Entscheidungen in `docs/entscheidungen.md` festhalten (Tabelle fortschreiben).
 - Neue Rechercheergebnisse als datierte Datei in `docs/recherche/` (`JJJJ-MM_thema.md`), mit Quellen.
 - Skripte: nur Python-Standardbibliothek, sofern nicht anders entschieden; vor dem Commit mit Testdateien ausprobieren.

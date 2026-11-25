@@ -1,4 +1,6 @@
-# Glossar: Automotive-Qualität, Informationssicherheit und Spritzguss
+# Branchenlexikon: Automotive-Qualität, Informationssicherheit und Spritzguss
+
+> Lernhilfe mit allgemeinen Branchenbegriffen. Die verbindliche **Projektsprache** steht in `GLOSSARY.md`.
 
 Für den Einstieg bei Kienbacher. Begriffe und Abkürzungen, die im Alltag eines Automotive-Zulieferers
 ständig fallen. Sortiert nach Themen, innerhalb alphabetisch.

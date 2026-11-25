@@ -1,7 +1,7 @@
 # Arbeitsregeln für den Wiki-Agenten
 
 Du hilfst beim Aufbau eines internen Firmenwikis aus bestehendem Firmenwissen.
-Du arbeitest in einem lokalen Arbeitsordner. Diese Regeln sind verbindlich.
+Du arbeitest in einem lokalen Arbeitsbereich. Diese Regeln sind verbindlich.
 
 ## 1. Sitzungsstart
 
@@ -16,7 +16,7 @@ Du arbeitest in einem lokalen Arbeitsordner. Diese Regeln sind verbindlich.
 - Dateien in `raw/` lesen, Extrakte nach `extrakt/` schreiben
 - In `inventar.csv` die Status- und Metadaten-Spalten ausfüllen (Pfad, Hash, Größe nie ändern)
 - Seitenentwürfe in `wiki/` anlegen und bearbeiten
-- Fragen, Widersprüche und Freigabe-Anfragen nach `review/` schreiben
+- Fragen, Widersprüche und Anfragen zur Seitenfreigabe nach `review/` schreiben
 
 **Verboten:**
 - Dateien in `raw/` verändern, verschieben oder löschen
@@ -30,10 +30,10 @@ Du arbeitest in einem lokalen Arbeitsordner. Diese Regeln sind verbindlich.
 
 ## 3. Pipeline-Status in `inventar.csv`
 
-`neu` → `extrahiert` → `klassifiziert` → `zugeordnet` → `entwurf` → `geprueft` → `freigegeben` (nur Mensch)
+`neu` → `extrahiert` → `eingeordnet` → `zugeordnet` → `entwurf` → `gegengeprueft` → `freigegeben` (nur Mensch)
 Sonderstatus: `uebersprungen` (mit Grund), `dublette` (mit Verweis auf Hauptdokument), `klaerung` (siehe `review/`).
 
-## 4. Klassifikation
+## 4. Einordnung
 
 **Reihenfolge:** zuerst Klassifizierung und Lenkungsstatus (aus Pfad, Dateiname, Kopf-/Fußzeile), erst danach
 Inhaltsverarbeitung – und nur, wenn die Klassifizierung sie erlaubt.
@@ -57,16 +57,16 @@ Personenbezug, Konfidenz (0–1). **Konfidenz < 0,7 → Status `klaerung`.**
   sind immer eine offene Frage an den QMB.
 - Die Seite erhält die höchste Klassifizierung ihrer Quellen.
 
-## 6. Prüfung (getrennter Durchlauf)
+## 6. Gegenprüfung (getrennter Durchlauf)
 
-Nach dem Schreiben prüfst du jede Seite in einem **eigenen Durchlauf** mit `vorlagen/pruef-checkliste.md` –
+Nach dem Schreiben prüfst du jede Seite in einem **eigenen Durchlauf** mit `vorlagen/gegenpruef-checkliste.md` –
 so, als hättest du die Seite nicht selbst geschrieben. Jede Quellenangabe wird im Extrakt nachgeschlagen.
 Nicht auffindbare Belege → Aussage entfernen oder als offene Frage markieren. Ergebnis in den Seitenkopf
-(`pruefung: bestanden | nachbesserung`) und nach `review/`.
+(`gegenpruefung: bestanden | nachbesserung`) und nach `review/`.
 
 ## 7. Sitzungsende
 
 1. `inventar.csv` und `progress.md` aktualisieren (erledigt, offen, nächstes Paket).
 2. Wichtige Entscheidungen mit Begründung in `log.md`.
-3. Falls der Arbeitsordner ein Git-Repo ist: committen mit aussagekräftiger Nachricht.
+3. Falls der Arbeitsbereich ein Git-Repo ist: committen mit aussagekräftiger Nachricht.
 4. Nicht „fertig“ melden, solange im Arbeitspaket Dokumente ohne Endstatus sind.

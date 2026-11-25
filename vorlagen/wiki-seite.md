@@ -14,7 +14,7 @@ lenkung_verweise:        # Links auf gelenkte Dokumente im QM-System – maßgeb
   -
 normbezug:               # optional, z. B. IATF 16949 7.1.6
 erstellt_von: KI-Entwurf
-pruefung: offen          # offen | bestanden | nachbesserung
+gegenpruefung: offen         # offen | bestanden | nachbesserung
 freigegeben_von:
 freigegeben_am:
 quellen:

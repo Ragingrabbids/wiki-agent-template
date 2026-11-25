@@ -12,9 +12,9 @@
 ```
 
 - **Steuernder Agent:** ein Agent (z. B. Claude Code), der pro Sitzung ein Arbeitspaket abarbeitet.
-- **Hilfsschritte:** parallelisierbar ist nur Extraktion und Klassifikation (Stapelverarbeitung, ggf. lokales Modell).
+- **Hilfsschritte:** parallelisierbar ist nur Extraktion und Einordnung (Stapelverarbeitung, ggf. lokales Modell).
 - **Schreiben und Zusammenführen:** immer ein Agent mit Gesamtüberblick, weil Konsistenz zählt.
-- **Prüfer:** eigener Durchlauf mit `vorlagen/pruef-checkliste.md`.
+- **Prüfer:** eigener Durchlauf mit `vorlagen/gegenpruef-checkliste.md`.
 - **Mensch:** Taxonomie-Freigabe, Klärungsfälle, Gültigkeit, Veröffentlichung.
 
 ## Pipeline
@@ -24,15 +24,15 @@
 | 0 Taxonomie & Regeln | Mensch (KI schlägt vor) | `TAXONOMIE.md` freigegeben | – |
 | 1 Inventur | Skript `inventur.py` | `inventar.csv`, exakte Dubletten | `neu` / `dublette` |
 | 2 Extraktion | Konverter (Docling/Marker/…) | `extrakt/*.md` | `extrahiert` |
-| 3 Klassifikation | Agent / lokales Modell | Metadaten + Konfidenz | `klassifiziert` / `klaerung` |
+| 3 Einordnung | Agent / lokales Modell | Metadaten + Konfidenz | `eingeordnet` / `klaerung` |
 | 4 Dubletten & Veraltetes | Agent (Vorschlag) + Fachabteilung | Cluster, vermutlich gültige Version | `dublette` / `klaerung` |
 | 5 Zuordnung & Entwurf | Agent | `wiki/*.md` mit Quellen | `zugeordnet` / `entwurf` |
-| 6 Prüfung | Agent (getrennter Durchlauf) | Prüfvermerk | `geprueft` |
-| 7 Freigabe & Veröffentlichung | Fachperson | Seite im Ziel-Wiki | `freigegeben` |
+| 6 Gegenprüfung | Agent (getrennter Durchlauf) | Prüfvermerk | `gegengeprueft` |
+| 7 Seitenfreigabe & Veröffentlichung | Fachperson | Seite im Ziel-Wiki | `freigegeben` |
 
 ## Messgrößen im Pilot
 
-- Klassifikationsgenauigkeit gegen 50–100 Golddokumente (Ziel > 90 % bei Abteilung/Dokumenttyp)
+- Einordnungsgenauigkeit gegen 50–100 Golddokumente (Ziel > 90 % bei Abteilung/Dokumenttyp)
 - Anteil korrekt belegter Aussagen (Stichprobe)
 - Zeitaufwand der Fachleute pro freigegebener Seite
 - Anteil Dokumente in `klaerung`

@@ -15,19 +15,19 @@
 
 **Variante A – M365-Umfeld:** Coding-Agent (Claude über EU-konformen Weg oder OpenAI mit EU-Residenz) im lokalen Arbeitsbereich → SharePoint-Site „Produktion“ mit Metadatenspalten. AI in SharePoint pflegt Metadaten nach, Copilot übernimmt später die Suche.
 
-**Variante B – alles im Haus:** Docmost oder BookStack, n8n als Pipeline-Gerüst, Docling/Marker für die Extraktion, Ollama für Klassifikation und Zusammenfassung. Ein stärkeres Modell für die Entwürfe nur, wenn die IT es freigibt.
+**Variante B – alles im Haus:** Docmost oder BookStack, n8n als Pipeline-Gerüst, Docling/Marker für die Extraktion, Ollama für Einordnung und Zusammenfassung. Ein stärkeres Modell für die Entwürfe nur, wenn die IT es freigibt.
 
 - [ ] Arbeitsbereich anlegen (`scripts/init_arbeitsbereich.py`)
 - [ ] Inventur Produktionsordner (`scripts/inventur.py`)
-- [ ] Goldstandard: 50–100 Dokumente von Hand klassifizieren
+- [ ] Goldstandard: 50–100 Dokumente von Hand einordnen
 - [ ] Arbeitspakete abarbeiten (je 30–50 Dokumente oder eine Maschine)
-- [ ] 100 % menschliche Freigabe im Pilot
+- [ ] 100 % Seitenfreigabe durch Fachleute im Pilot
 - [ ] Auswertung der Messgrößen, Entscheidung über Ausweitung
 
 ## Phase 2 – Ausweitung (ab Monat 4)
 
 - [ ] Weitere Abteilungen nacheinander, je mit Taxonomie-Erweiterung und benannten Seitenverantwortlichen
-- [ ] Freigabe auf Stichproben umstellen, wo die Messwerte stabil sind (Sicherheit und Parameter bleiben bei 100 %)
+- [ ] Seitenfreigabe auf Stichproben umstellen, wo die Messwerte stabil sind (Sicherheit und Parameter bleiben bei 100 %)
 - [ ] KI-Suche freischalten, erst nach Bereinigung der Berechtigungen
 
 ## Phase 3 – Betrieb und Übergabe

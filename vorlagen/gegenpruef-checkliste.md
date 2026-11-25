@@ -1,4 +1,4 @@
-# Prüf-Checkliste für Wiki-Entwürfe
+# Gegenprüf-Checkliste für Wiki-Entwürfe
 
 Getrennter Durchlauf: so prüfen, als stamme die Seite von jemand anderem.
 
@@ -27,4 +27,4 @@ Getrennter Durchlauf: so prüfen, als stamme die Seite von jemand anderem.
 - [ ] Keine personenbezogenen Daten über das Nötige hinaus (Rollen statt Namen, außer „verantwortlich“).
 
 ## Ergebnis
-`pruefung: bestanden` oder `pruefung: nachbesserung` + Liste der Mängel in `review/`.
+`gegenpruefung: bestanden` oder `gegenpruefung: nachbesserung` + Liste der Mängel in `review/`.
